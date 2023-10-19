@@ -62,7 +62,7 @@ CREATE TABLE `utilisateurs` (
   `id_utilisateur` int NOT NULL AUTO_INCREMENT,
   `nom` varchar(45) NOT NULL,
   `prenom` varchar(45) NOT NULL,
-  `email` varchar(255) NOT NULL,
+  `email` varchar(100) NOT NULL,
   `mot_de_passe` varchar(60) NOT NULL,
   `date_naissance` date NOT NULL,
   `id_role` int NOT NULL,
